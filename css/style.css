@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+/* Main Page & Header Tabs*/
+
+header.mainPage{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/banner2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    margin-top: 15px;
+    float: left;
+    width: 60 px;
+    height: auto;
+}
+
+.main{
+    max-width: 1800px;
+    margin: auto;
+}
+
+/* Default Page Setup*/
+
+header.aboutTheProjectPage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/aboutProjectBanner.jpg);
+    height: 55vh; 
+    background-size: cover;
+    background-position: top;
+}
+
+header.aboutTheTeamPage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/aboutTeamBanner.jpg);
+    height: 55vh; 
+    background-size: cover;
+    background-position: top;
+}
+
+header.PrototypesPage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/PrototypeBanner.jpg);
+    height: 55vh; 
+    background-size: cover;
+    background-position: top;
+}
+
+header.BuildingSupervisorAssist{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/aboutTheTeam.jpg);
+    height: 70vh; 
+    background-size: cover;
+    background-position: top;
+}
+
+.defaultHeaderTextbox{
+    position: absolute;
+    top: 35%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    padding: 10px;
+}
+
+.defaultHeaderTextbox h1{
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.defaultCenterPhoto img{
+    margin-top: 4%;
+    margin-left: 20%;
+    float: left;
+    width: 40%;
+    height: auto;
+
+    border: 5px groove transparent;
+    border-color: goldenrod;
+}
+
+
+/* Main Page Text */
+
+.title{
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-style: oblique;
+}
+
+/* About the Team Page */
+
+.aboutTeamMainText{
+    margin: 50px;
+}
+
+.aboutTeamMainText h1{
+    color: #000;
+    font-size: 25px;
+    font-style: bold;
+}
+
+/* About the Project Page */
+
+.aboutProjectMainText{
+    margin: 50px;
+    margin-left: 100px;
+}
+.aboutProjectMainText h1{
+    color: #000;
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.aboutProjectMainText h2{
+    margin-top: 15px;
+    margin-right: 200px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Century Gothic;
+}
+
+.aboutProjectMainText h2 ul li{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Century Gothic;
+}
+
+/* Prototypes Page */
+
+.PrototypesMainText{
+    margin: 50px;
+    margin-left: 100px;
+}
+.PrototypesMainText h1{
+    color: #000;
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.PrototypesMainText h2{
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Century Gothic;
+}
+
+/* The Prototype Gallery */
+
+.PrototypesGallery{
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.photoGallery{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.photoGallery img{
+    width: 400px;
+    height: 500px;
+    border: 5px groove transparent;
+    border-color: black;
+}
+
+.caption{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.photoGallery2{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.photoGallery2 img{
+    width: 300px;
+    height: 600px;
+    border: 5px groove transparent;
+    border-color: goldenrod;
+}
+
+/* The BSA Page */
+
+.bsaCenterPhoto img{
+    margin-top: 4%;
+    margin-left: 20%;
+    float: left;
+    width: 35%;
+    height: 70%;
+
+    border: 5px groove transparent;
+    border-color: goldenrod;
+}
+
+.bsaHeaderTextbox{
+    position: absolute;
+    top: 35%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    padding: 10px;
+}
+
+.bsaHeaderTextbox h1{
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.bsaHeaderTextbox h1 ul li{
+    display: list-item;
+    list-style-type: square;
+    list-style-position: inside;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Century Gothic;
+}
+
+.bsaHeaderTextbox h1 ul li ul li{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inherit;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Century Gothic;
+}
