@@ -133,6 +133,7 @@ header.BuildingSupervisorAssist{
 
 .aboutTeamMainText{
     margin: 50px;
+    padding-top: 120px;
 }
 
 .aboutTeamMainText h1{
@@ -146,6 +147,7 @@ header.BuildingSupervisorAssist{
 .aboutProjectMainText{
     margin: 50px;
     margin-left: 100px;
+    padding-top: 120px;
 }
 .aboutProjectMainText h1{
     color: #000;
