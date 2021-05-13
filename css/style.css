@@ -304,3 +304,18 @@ header.BuildingSupervisorAssist{
     font-style: normal;
     font-family: Century Gothic;
 }
+
+/* Lessons Learned Page */
+.lessonsLearnedPage {
+    margin-top: 22px;
+}
+
+.lessons-bg {
+    background-image: url(../images/classroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lessons-card-bg {
+    opacity: 0.9;
+}

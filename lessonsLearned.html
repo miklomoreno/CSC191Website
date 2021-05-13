@@ -4,23 +4,55 @@
 <head>
     <title> Lessons Learned </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="lessons-bg">
     <header class="lessonsLearnedPage">
-        <div class="main">
+        <div>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="aboutTheProject.html">About the Project</a></li>
-                <li><a href="aboutTheTeam.html">About the Team</a></li>
                 <li><a href="Prototypes.html">Prototypes</a></li>
                 <li><a href="BuildingSupervisorAssist.html">Building Supervisor Assist</a></li>
-                <li class="active"><a href="lessonsLearned.html"></a>Lessons Learned</li>
+                <li>Background</li>
+                <li>Scope</li>
+                <li>Solution</li>
+                <li>Highlights</li>
+                <li>Implementation</li>
+                <li class="active"><a href="lessonsLearned.html">Lessons Learned</a></li>
+                <li><a href="aboutTheTeam.html">About the Team</a></li>
             </ul>
         </div>        
     </header>
 
-    
+    <div class="container card text-center lessons-card-bg">
+        <div class="card-body">
+            <h1>Lessons Learned</h1>
+        </div>
+        
+    </div>
+
+    <div class="container card lessons-card-bg">
+        <div class="card-body">
+            <h3 class="card-title text-center">Tools & Technologies</h3>
+            <p class="card-text"><b>Source code management: </b>GitLab</p>
+            <p class="card-text"><b>Task management: </b>Flying Donut</p>
+            <p class="card-text"><b>Prototyping: </b>Figma</p>
+            <p class="card-text"><b>Testing: </b>Mocha, Superset, Istanbul, Chai</p>
+            <p class="card-text"><b>Sails.js Web framework: </b>includes JavaScript, HTML, CSS, bootstrap, Waterline ORM, Vue.js</p>
+        </div>
+    </div>
+
+    <div class="container card lessons-card-bg">
+        <div class="card-body text-center">
+            <h3 class="card-title">Amount of Work Completed</h3>
+            <p class="card-text">280 commits, 291 files changed</p>
+            <p class="card-text">13,214 insertions(+), 872 deletions(-)</p>
+            <img src="images/bsa-repo.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+
 </body>
 
 </html>
