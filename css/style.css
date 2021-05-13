@@ -183,6 +183,8 @@ header.BuildingSupervisorAssist{
 }
 
 /*Highlights Page */
+
+
 #highlightImg{
     height: 500px;
     width: auto;
@@ -318,4 +320,66 @@ header.BuildingSupervisorAssist{
 
 .lessons-card-bg {
     opacity: 0.9;
+}
+
+/* Hover Button */
+
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding-right: 1px;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #fff;
+    color: #000;}
+
+
+/* Highlights Page */
+
+.highlightsCenterPhoto img{
+    margin-top: 0%;
+    margin-left: 5%;
+    float: left;
+    width: 50px;
+
+    border: 5px groove transparent;
+    border-color: goldenrod;
+}
+
+ul li.bsaActive button{
+    background-color: #fff;
+    color: #000;
 }
