@@ -71,6 +71,14 @@ header.aboutTheTeamPage{
     background-position: top;
 }
 
+header.highlightsPage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/highlightsBanner.jpg);
+    height: 55vh; 
+    background-size: cover;
+    background-position: top;
+}
+
 header.PrototypesPage{
     background-color: #234223;
     background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/PrototypeBanner.jpg);
@@ -173,6 +181,23 @@ header.BuildingSupervisorAssist{
     font-size: 16px;
     font-style: normal;
     font-family: Century Gothic;
+}
+
+/*Highlights Page */
+#highlightImg{
+    height: 500px;
+    width: auto;
+}
+
+.highlightsMainText{
+    margin: 50px;
+    padding-top: 20px;
+}
+
+.highlightsMainText h1{
+    color: #000;
+    font-size: 25px;
+    font-style: bold;
 }
 
 /* Prototypes Page */
