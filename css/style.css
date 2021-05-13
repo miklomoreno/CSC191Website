@@ -95,6 +95,23 @@ header.BuildingSupervisorAssist{
     background-position: top;
 }
 
+header.scopePage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/scopeBanner.png);
+    height: 55vh; 
+    background-size: cover;
+    background-position: top;
+}
+
+header.implementationPage{
+    background-color: #234223;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/implementationBanner.JPG);
+    background-size: 10px 10px;
+    height: 70vh; 
+    background-size: cover;
+    background-position: top;
+}
+
 .defaultHeaderTextbox{
     position: absolute;
     top: 35%;
